@@ -3,7 +3,11 @@ Simple test server
 
 I'm just using this try out setting up a server on AWS.
 
-Log into the ec2 instance ssh -i <<key name>> ec2-user@<<IP address>>
+cd to your key (or just use the relative path from your current location).
+
+Double check your current IP address from the ec2 info (Public IPV4)
+
+Log into the ec2 instance ssh -i name-of-key(pem)-file ec2-user@current-ip-address
   
 cd to the repo
   
