@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "start-watch": "pm2 start app.js",
+    "stop": "pm2 stop app.js"
   },
   "keywords": [],
   "author": "",
