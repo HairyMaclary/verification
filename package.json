@@ -1,12 +1,12 @@
 {
-  "name": "sample-app",
+  "name": "verification",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "start-watch": "pm2 start app.js",
-    "stop": "pm2 stop app.js"
+    "start": "node index.js",
+    "start-watch": "pm2 start index.js",
+    "stop": "pm2 stop index.js"
   },
   "keywords": [],
   "author": "",
