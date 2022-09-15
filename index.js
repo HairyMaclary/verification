@@ -8,5 +8,8 @@ const indexFilePath = path.join(__dirname,'/index.html')
 console.log(indexFilePath);
 //app.get('/',(req, res) => res.send('Hello World'));
 app.get('/',(req, res) => res.sendFile(indexFilePath));
-app.post('/signin',(req, res) => res.send("trying to verify"));
+app.post('/signin',(req, res) => { 
+   console.log('sign in request')
+   console.log({req})
+  res.send("trying to verify") });
 app.listen(PORT, () => console.log(`Server listening in port ${PORT}`))
