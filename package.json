@@ -7,7 +7,8 @@
     "start": "node index.js",
     "start-watch": "pm2 start index.js",
     "stop": "pm2 stop index.js",
-    "restart": "npm run stop && git pull && npm run start-watch"
+    "restart": "npm run stop && git pull && npm run start-watch",
+    "log": "pm2 log"
   },
   "keywords": [],
   "author": "",
